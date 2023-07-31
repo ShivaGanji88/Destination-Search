@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.first-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  height: 20px;
+  width: 20px;
+}
+.second-container {
+  display: flex;
+  margin-left: 30px;
+}
+
+.heading {
+  padding-left: 30px;
+  font-family: Roboto;
+}
+
+@media screen and (min-width: 768px) {
+  .first-container {
+    align-items: flex-start;
+  }
+}
+.destinations-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .destinations-list {
+    justify-content: flex-start;
+  }
+}
